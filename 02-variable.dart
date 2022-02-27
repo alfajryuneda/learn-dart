@@ -26,9 +26,12 @@ void main() {
   }
   print(lineCount);
 
-  
+
   // --------------------------- LATE VARIABLES ---------------------------
-
-
+  // variable dengan kata "late" bisa diinisialisasi di kemudiannya
+  // penambahan "late" mencegah kemungkinan error
+  late String description;
+  description = 'Feijoada!';
+  print(description);
 
 }
