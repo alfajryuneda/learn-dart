@@ -30,9 +30,8 @@ void main() {
   print('tipe data firstNum : ${firstNum.runtimeType}');
   print('tipe data firstString : ${firstString.runtimeType}');
 
-
-
   //----------------------------- STRING -----------------------------
-  
-
+  var s1 = 'Im learning Dart';
+  var s2 = "Flutter use Dart as their native languange";
+  print(s2);
 }
