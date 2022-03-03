@@ -34,4 +34,15 @@ void main() {
   var s1 = 'Im learning Dart';
   var s2 = "Flutter use Dart as their native languange";
   print(s2);
+
+  //----------------------------- BOOLEAN -----------------------------
+  var kosong = '';
+  print('apakah kosong : ${kosong.isEmpty}');
+
+  var zero = 0;
+  print('apakah 0 lebih kecil dari 7 : ${zero > 7}');
+
+  var isNull;
+  print(isNull == null);
+  print(isNull);
 }
