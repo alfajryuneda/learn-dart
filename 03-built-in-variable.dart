@@ -57,6 +57,7 @@ void main() {
   var constantList = const [1, 2, 3];
   // perubahan ini menyebabkan error
   // constantList[0] = 5;
+  // constantList.add(90);
 
   var daftar = [1, 2, 3];
   var daftar2 = [0, 60, ...daftar];
@@ -69,4 +70,35 @@ void main() {
   namaBuku.add('titanic');
   print(namaBuku);
   namaBuku.addAll(buku);
+
+  final constantSet = const {
+    'fluorine',
+    'chlorine',
+    'bromine',
+    'iodine',
+    'astatine',
+  };
+  // constantSet.add('value');
+  // tidak bisa ditambah elemen dan isinya tidak bisa diubah
+
+  //----------------------------- MAPS -------------------------------
+  var lamborghini = {
+    'brand': 'Ferrari',
+    'country': 'italy',
+    'tire': 4,
+    'isUsingFuel': true,
+  };
+  print(lamborghini);
+
+  var widthYard = Map<String, int>();
+  widthYard['pertama'] = 200;
+  widthYard['kedua'] = 500;
+  widthYard['ketiga'] = 350;
+  print(widthYard);
+
+  final constantMap = const {
+    2: 'helium',
+    10: 'neon',
+    18: 'argon',
+  };
 }
