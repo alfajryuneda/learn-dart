@@ -45,4 +45,28 @@ void main() {
   var isNull;
   print(isNull == null);
   print(isNull);
+
+  var zeroDividedZero = 0 / 0;
+  print(zeroDividedZero.isNaN);
+
+  //----------------------------- LIST -------------------------------
+  var listBrand = ['honda', 'toyota', 'ferrari'];
+  print(listBrand.length);
+  print(listBrand[2]);
+
+  var constantList = const [1, 2, 3];
+  // perubahan ini menyebabkan error
+  // constantList[0] = 5;
+
+  var daftar = [1, 2, 3];
+  var daftar2 = [0, 60, ...daftar];
+  print(daftar2);
+
+  //----------------------------- SETS -------------------------------
+  var buku = {'laskarp-pelangi', 'perahu-kertas', 'lupus'};
+  print(buku);
+  var namaBuku = <String>{};
+  namaBuku.add('titanic');
+  print(namaBuku);
+  namaBuku.addAll(buku);
 }
