@@ -7,6 +7,7 @@ class Point {
 }
 
 main() {
+  // p is instance of class
   var p = Point();
   p.x = 50;
   print(p.z);
