@@ -10,5 +10,6 @@ main() {
   // p is instance of class
   var p = Point();
   p.x = 50;
+  p.y = 22;
   print(p.z);
 }
