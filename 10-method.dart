@@ -15,5 +15,4 @@ class Point {
 
 void main() {
   var test = Point(10, 29);
-  print(test.distanceTo());
 }
