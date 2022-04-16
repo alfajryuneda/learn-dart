@@ -36,7 +36,7 @@ void main() {
   // --------------------------- FINAL AND CONST ---------------------------
   // Gunakan final atau const apabila kita tidak akan mengubah nilai dari sebuah variabel
   // mengubah nilai age akan memunculkan error karena penggunaan "final"
-  
+
   final age = 20;
   // age = 22;
   print(age);

@@ -8,11 +8,7 @@ void main() {
 
   String name = 'yuneda';
   String? nullableName = name;
-
-  // int? nullableNumber;
-  // if (nullableNumber != null) {
-  //   int number = nullableNumber;
-  // }
+  print(nullableName);
 
   // Default value
   String? guest;
@@ -20,8 +16,4 @@ void main() {
   String guestname = guest ?? 'Guest';
   // String guestname = guest != null ? guest : 'guest';
   print(guestname);
-
-  int? nullableNumber;
-  // Tanda seru akan memaksa konversi namun akan erro jka null
-  int nonNullableNumber = nullableNumber!;
 }
